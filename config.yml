@@ -1,0 +1,10 @@
+template: Hello, %s!
+defaultName: Stranger
+
+logging:
+  level: INFO
+  loggers:
+    com.kevsil: DEBUG
+
+server:
+  rootPath: /api/
